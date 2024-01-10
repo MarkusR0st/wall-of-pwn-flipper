@@ -119,9 +119,10 @@ Try to launch Wall of Flipper with :
 
 # What's next ? 
 
-- Create a script to launch wall of flipper and wall of pwn at startup
+- Create a pwnagotchi plugin to run wall of pwn flipper and show information on screen
+- Create a script to launch wall of pwn flipper and wall of pwn at startup
 - Clean up script and guide
-- Make a lighter version of wall of flipper ?
+- Make a lighter version of wall of pwn flipper ?
 - Add date to the table ? (Add date to the Flipper.json file)
 - Add GPS coordinate ?
 
