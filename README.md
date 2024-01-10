@@ -108,7 +108,7 @@ Try to launch Wall of Flipper with :
     cd e-paper/RaspberryPi_JetsonNano/python/examples
     sudo python3 epd_2in13_V3_test.py
 
-# Execute Wall of Pwn Flipper <a name = "doc_exexute"></a>
+# Execute Wall of Pwn Flipper <a name = "doc_execute"></a>
 
     git clone https://github.com/MarkusR0st/wall-of-pwn-flipper.git
 
