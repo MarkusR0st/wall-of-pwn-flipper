@@ -60,7 +60,7 @@ Verify SPI kernel loaded
 
 ## Install Wall of Flipper
 
-Just follow the Debian Linux Install Guide on [Wall of flipper] (https://github.com/K3YOMI/Wall-of-Flippers/tree/main) github.
+Just follow the Debian Linux Install Guide on [Wall of flipper](https://github.com/K3YOMI/Wall-of-Flippers/tree/main) github.
 
 Here is the step by step guide in case :
 
