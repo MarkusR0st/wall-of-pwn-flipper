@@ -8,9 +8,9 @@
 
 # Wall of Flippers on a pwnagotchi <a name = "doc_intro"></a>
 
-The first goal was to install [Wall of Flippers] (https://github.com/K3YOMI/Wall-of-Flippers/tree/main) on Raspberry Pi Zero. 
+The first goal was to install [Wall of Flippers](https://github.com/K3YOMI/Wall-of-Flippers/tree/main) on Raspberry Pi Zero. 
 
-The only Raspberry Pi Zero i had was a full kit (E-ink waveshare V3 and battery) from my [Pwnagotchi] (https://github.com/evilsocket/pwnagotchi) i then decided to print the data from the Flipper.json file from Wall of Flipper scan to my e-ink screen.
+The only Raspberry Pi Zero i had was a full kit (E-ink waveshare V3 and battery) from my [Pwnagotchi](https://github.com/evilsocket/pwnagotchi) i then decided to print the data from the Flipper.json file from Wall of Flipper scan to my e-ink screen.
 
 It's a basic guide of how to install dependecies for Wall of Flipper and for WaveShare V3 e-ink display.
 
@@ -19,14 +19,14 @@ It's a basic guide of how to install dependecies for Wall of Flipper and for Wav
 ## Raspberry Pi Zero Install
 
 ### Way 1
-Use [Raspberry Pi Imager] (https://www.raspberrypi.com/software/) in os type select Raspberry Pi OS Lite 32-bit.
+Use [Raspberry Pi Imager](https://www.raspberrypi.com/software/) in os type select Raspberry Pi OS Lite 32-bit.
 Click on the bottom right and enter your wifi ssid and password (Used to connect via ssh to your RPI Zero).
 Flash your SD card
 
 ### Way 2
-Download the Raspberry Pi OS Lite 32-bit version on [Raspberry Pi website] (https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit) and flash it on your SD card with [BalenaEtcher] (https://etcher.balena.io).
+Download the Raspberry Pi OS Lite 32-bit version on [Raspberry Pi website](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit) and flash it on your SD card with [BalenaEtcher](https://etcher.balena.io).
 
-If you want to connect via SSH over USB to your RPI Zero follow [this] (https://artivis.github.io/post/2020/pi-zero/)
+If you want to connect via SSH over USB to your RPI Zero follow [this](https://artivis.github.io/post/2020/pi-zero/)
 
 > Use SSH to connect to your flipper by default user=pi and password=raspberry
 
