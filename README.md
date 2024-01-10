@@ -3,6 +3,7 @@
 # Table of Contents
 - [Introduction](#doc_intro)
 - [How to Install Guide](#doc_how_to_install)
+- [Execute Wall of Pwn Flipper](#doc_execute)
 
 <br><br>
 
@@ -107,9 +108,11 @@ Try to launch Wall of Flipper with :
     cd e-paper/RaspberryPi_JetsonNano/python/examples
     sudo python3 epd_2in13_V3_test.py
 
-## Install Wall of Pwn
+# Execute Wall of Pwn Flipper <a name = "doc_exexute"></a>
 
-    git clone xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    git clone https://github.com/MarkusR0st/wall-of-pwn-flipper.git
+
+    cd wall-of-pwn-flipper
 
     python3 wall-of-pwn.py
 
