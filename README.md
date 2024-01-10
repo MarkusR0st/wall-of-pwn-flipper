@@ -83,6 +83,7 @@ Try to launch Wall of Flipper with :
 
 ### Clone Waveshare repository
 
+    cd
     git clone https://github.com/waveshare/e-Paper.git
 
 ### Basic package
@@ -91,10 +92,9 @@ Try to launch Wall of Flipper with :
 
 ### Python package
 
-    python3 -m venv .waveshare
-    source .waveshare/bin/activate
+    source /home/pi/Wall-of-Flippers/.venv/bin/activate
 
-    cd e-paper/RaspberryPi_JetsonNano/python/
+    cd /home/pi/e-paper/RaspberryPi_JetsonNano/python/
 
     sudo python3 setup.py install
 
@@ -105,7 +105,7 @@ Try to launch Wall of Flipper with :
 
 ## Test WaveShare screen
 
-    cd e-paper/RaspberryPi_JetsonNano/python/examples
+    cd /home/pi/e-paper/RaspberryPi_JetsonNano/python/examples
     sudo python3 epd_2in13_V3_test.py
 
 # Execute Wall of Pwn Flipper <a name = "doc_execute"></a>
@@ -115,6 +115,11 @@ Try to launch Wall of Flipper with :
     cd wall-of-pwn-flipper
 
     python3 wall-of-pwn.py
+
+# IN PROGRESSCreate an startup script <a name = "doc_startup"></a>
+
+The startup script will run wall of flipper and wall of pwnagotchi in background at startup.
+It'll update the screen every 10 seconds.
 
 
 # What's next ? 
